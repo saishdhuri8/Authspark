@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 const authApi = axios.create({
-    baseURL: "http://localhost:3000/user"
+    baseURL: "https://authspark-kg5d.vercel.app/user"
 })
 
 authApi.interceptors.request.use((req) => {
