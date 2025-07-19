@@ -75,7 +75,7 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
           >
-            Next-gen Authentication
+           Authentication
           </motion.span>
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-white via-blue-200 to-blue-400">
             <motion.span
@@ -101,7 +101,7 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8 }}
           >
-            Authspark provides enterprise-grade authentication with simple integration.
+            Authspark provides authentication with simple integration.
             Email/Password, JWT, and more - all with project isolation
             and advanced security features.
           </motion.p>
